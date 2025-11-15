@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TitulaRD - Legalización de Títulos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>TitulaRD</h1>
+    <p>Solicita la legalización de tu título académico</p>
+  </header>
+
+  <main>
+    <form id="legalizacionForm">
+      <h2>Formulario de Solicitud</h2>
+      <label>Nombre completo:
+        <input type="text" required />
+      </label>
+      <label>Cédula:
+        <input type="text" required />
+      </label>
+      <label>Universidad:
+        <input type="text" required />
+      </label>
+      <label>Carrera:
+        <input type="text" required />
+      </label>
+      <label>Subir Título (PDF):
+        <input type="file" accept=".pdf" required />
+      </label>
+      <label>Subir Récord de Notas (PDF):
+        <input type="file" accept=".pdf" required />
+      </label>
+      <button type="submit">Enviar Solicitud</button>
+    </form>
+
+    <section id="estado">
+      <h2>Estado de tu Solicitud</h2>
+      <p id="estadoTexto">Aún no has enviado ninguna solicitud.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MESCYT | TitulaRD</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
